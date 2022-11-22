@@ -5,9 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: linear-gradient(red, pink, blue);
-}
 .containe {
     height: 700px;
 }
