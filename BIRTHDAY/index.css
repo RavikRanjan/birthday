@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/bgr2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+button{
+
+}
+.simg{
+    position: absolute;
+    margin-top: 70px;
+    left: 40%;
+}
+.content{
+    position: absolute;
+    left: 40%;
+    margin-top: 33%;
+}
+.content h2{
+    font-size: 48px;
+    font-family: cursive;
+    color: red;
+    text-transform: uppercase;
+}
+.btnclick{
+    margin-top: 38%;
+    left: 43%;
+    position: absolute;
+    box-shadow: 5px 5px 10px 2px black;
+    border-radius: 10px;
+}
+.btnclick button{
+    padding: 10px 30px 10px 30px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.btnclick button a{
+    text-decoration: none;
+    color: red;
+    text-shadow: 2px 1px black;
+    letter-spacing: .1rem;
+}
+
+marquee h2{
+    color: greenyellow;
+    font-size: 28px;
+    font-weight: bold;
+}
+marquee img{
+    height: 25px;
+    width: 25px;
+}
+
+@media screen and (max-width : 1000px) {
+    .simg{
+        margin-top: 30px;
+        left: 35%;
+    }
+    .simg img{
+        height: 180px;
+        width: 280px;
+    }
+    .content h2{
+        font-size: 28px;
+    }
+    .btnclick{
+        margin-top: 38%;
+        left: 40%;
+    }
+    .btnclick button{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .simg{
+        margin-top: 10px;
+        left: 35%;
+    }
+    .simg img{
+        height: 120px;
+        width: 200px;
+    }
+    .content h2{
+        font-size: 18px;
+    }
+    .btnclick{
+        margin-top: 40%;
+        left: 38%;
+    }
+    .btnclick button{
+        font-size: 16px;
+        padding: 0px 10px 0px 10px;
+    }
+    marquee h2{
+        font-size: 18px;
+    }
+    marquee img{
+        height: 16px;
+        width: 16px;
+    }
+}
+@media screen and (max-width : 576px) {
+    body{
+        background-repeat: repeat;
+    }
+    .simg{
+        margin-top: 5px;
+        left: 30%;
+    }
+    .simg img{
+        height: 80px;
+        width: 150px;
+    }
+    .content h2{
+        font-size: 16px;
+    }
+    .btnclick{
+        margin-top: 40%;
+        left: 38%;
+    }
+    .btnclick button{
+        font-size: 14px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    marquee{
+        margin-top: -10px;
+    }
+    marquee h2{
+        font-size: 10px;
+    }
+    marquee img{
+        height: 8px;
+        width: 8px;
+    }
+}
